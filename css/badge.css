@@ -1,0 +1,198 @@
+/* BADGE */
+.badge {
+  width: 64px;
+  display: block;
+  z-index: 9000;
+  right: 30px;
+  bottom: 10px;
+  position: fixed;
+}
+
+.badge .badge__wrap {
+  display: flex;
+  flex-direction: column-reverse;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.badge .badge__wrap .badge__button {
+  width: 64px;
+  height: 64px;
+  background-color: #7f7f7f;
+  border: 0;
+  position: relative;
+  display: block;
+  border-radius: 100%;
+  transition: all ease-in-out .3s;
+  z-index: 11;
+  cursor: pointer;
+  right: 0;
+}
+
+.badge .badge__wrap .badge__button::before,
+.badge .badge__wrap .badge__button::after {
+  width: 24px;
+  height: 2px;
+  margin-left: -1.2px;
+  border-radius: 0.1px;
+  background-color: #fff;
+  transition: all ease-in-out .3s;
+  content: '';
+  position: absolute;
+  right: 0;
+}
+
+.badge .badge__wrap .badge__button::before {
+  transform: rotate(45deg);
+  right: 33.3%;
+
+}
+
+.badge .badge__wrap .badge__button::after {
+  transform: rotate(-45deg);
+  right: 33.3%;
+
+}
+
+.badge .badge__wrap .badge__icon1 {
+  position: absolute;
+  bottom: 65px;
+  width: 64px;
+  right: 0;
+  transition: right .3s ease, width .3s ease;
+}
+
+.badge .badge__wrap .badge__icon1:hover {
+  width: 290px;
+  height: 64px;
+  background-color: #0064de;
+  position: absolute;
+  right: 0;
+  bottom: 75px;
+  border-radius: 4rem;
+}
+
+.badge .badge__wrap .badge__icon1 .badge__icon1{
+  width: 64px;
+  height: 64px;
+  background-color: #0064de;
+  border: 0;
+  position: absolute;
+  display: block;
+  border-radius: 100%;
+  bottom: 10px;
+  cursor: pointer;
+  transition: right .3s ease;
+  right: 0;
+}
+
+.badge .badge__wrap .badge__icon1:hover .badge__icon1 {
+  position: absolute;
+  bottom: 0;
+  right: 221px;
+  display: block;
+  width: 64px;
+}
+
+.badge .badge__wrap .badge__icon1 > span {
+  display: none;
+  transition: right .3s ease;
+}
+
+.badge .badge__wrap .badge__icon1:hover > span {
+  width: 290px;
+  display: block;
+  position: absolute;
+  left: 75px;
+  top: 13px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.badge .badge__wrap .badge__icon2 {
+  width: 64px;
+  height: 64px;
+  background-color: #10a1c0;
+  position: relative;
+  display: block;
+  border-radius: 100%;
+  bottom: 85px;
+  overflow: hidden;
+  cursor: pointer;
+
+  right: 0;
+  transition: width .3s ease;
+}
+
+.badge .badge__wrap .badge__icon2:hover {
+  width: 290px;
+  height: 64px;
+  background-color: #10a1c0;
+  position: absolute;
+  right: 0;
+  bottom: 150px;
+  border-radius: 4rem;
+  display: block;
+}
+
+.badge .badge__wrap .badge__icon2 img.badge__icon2-1 {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 12px;
+  left: 1px;
+}
+
+.badge .badge__wrap .badge__icon2 img.badge__icon2-2{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 27%;
+  top: 0;
+  right: 0;
+}
+
+.badge .badge__wrap .badge__icon2:hover img.badge__icon2-2 {
+  left: 17px;
+  right: 0;
+}
+
+.badge .badge__wrap .badge__icon2 > span {
+  display: none;
+  transition: right .3s ease, width .3s ease;
+}
+
+.badge .badge__wrap .badge__icon2:hover > span {
+  width: 290px;
+  display: block;
+  position: absolute;
+  left: 75px;
+  top: 25px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.badge .badge__wrap #to-top {
+  width: 64px;
+  height: 64px;
+  background-color: #fff;
+  border: 1px solid #d9dbe1;
+  position: fixed;
+  display: block;
+  border-radius: 100%;
+  cursor: pointer;
+  bottom: 235px;
+}
+
+.badge .badge__wrap #to-top img.totop {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 17px;
+  top: 20px;
+}
+
+.badge .badge__wrap a {
+
+}

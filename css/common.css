@@ -1,0 +1,19 @@
+/* COMMON */
+body {
+  width: 1920px;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.inner {
+  width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}

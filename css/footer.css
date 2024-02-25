@@ -1,0 +1,255 @@
+/* FOOTER */
+
+footer {
+  position: relative;
+}
+
+.section1 {
+  width: 1920px;
+  height: 265.656px;
+  position: relative;
+  background-color: #f3f4f8;
+}
+
+.section1-inner {
+  width: 1280px;
+  height: 191.656px;
+  padding: 50px 0;
+  position: absolute;
+  left: 50%;
+  margin-left: -640px;
+}
+
+.section1-textbox {
+  width: 1280px;
+  height: 191.656px;
+}
+
+.section1-textbox .textbox {
+  display: flex;
+
+}
+
+.section1-textbox .textbox > ul {
+  display: flex;
+}
+
+.section1-textbox .textbox > ul > li {
+  width: 224.969px;
+  height: 191.656px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+.section1-textbox .textbox > ul > li h6 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 11px;
+}
+
+.section1-textbox .textbox > ul > li ul {
+  
+}
+
+.section1-textbox .textbox > ul > li ul li.strong {
+  font-weight: 700;
+}
+
+.section1-textbox .textbox > ul > li ul li {
+  font-size: 14px;
+  margin: 2px 0;
+  color: #555;
+  line-height: 1.5;
+}
+
+.section1-textbox .textbox > ul > li ul li:hover {
+  text-decoration: underline;
+}
+
+
+.section1-textbox .textbox .sns-icon {
+  width:  208px;
+  height: 44px;
+  position: absolute;
+  right: 0;
+}
+
+.section1-textbox .textbox .banner {
+  width: 252px;
+  height: 52px;
+  position: absolute;
+  right: 0;
+  top: 105px;
+}
+
+.section1-textbox .textbox .banner .google {
+  padding-right: 10;
+}
+
+.section1-textbox .textbox .banner .apple {
+  width: 108px;
+  height: 34px;
+}
+
+
+
+.section2 {
+}
+
+.section2-inner {
+  width: 1280px;
+  height: 86.094px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+
+.section2 .textbox {
+  width: 850px;
+  height: 22.101px;
+  display: flex;
+  position: relative;
+}
+
+.section2 .textbox  .contact__item{
+  width: 207.441px;
+  height: 22.101px;
+  color: #767676;
+  font-size: 14px;
+  line-height: 1.58;
+}
+
+.section2 .textbox  .contact__item .contact__emphasis {
+  color: #00256c;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.section2 .textbox .contact__list {
+  width: 635px;
+  height: 22.101px;
+  list-style: none;
+  display: flex;
+  font-size: 14px;
+  line-height: 1.58;
+  color: #767676;
+}
+
+.section2 .textbox .contact__list .contact__info {
+  height: 22.12px;
+  padding-left: 10px;
+  margin-left: 10px;
+  position: relative;
+}
+
+.section2 .textbox .contact__list .contact__info::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 1px;
+  height: 10.994px;
+  background-color: #d9dbe1;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.section2 .imgbox {
+  width: 210px;
+  height: 70px;
+  position: absolute;
+  right: 20px;
+  bottom: 44.15px;
+}
+
+.section2 .imgbox .img1 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  right: 142px;
+}
+
+.section2 .imgbox .img1:hover {
+  outline: solid #0056D5 1px;
+  border-radius: 4px;
+}
+
+.section2 .imgbox .img2 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  right: 71px;
+}
+
+.section2 .imgbox .img2:hover {
+  outline: solid #0056D5 1px;
+  border-radius: 4px;
+}
+
+.section2 .imgbox .img3 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  right: 0;
+}
+
+.section2 .imgbox .img3:hover {
+  outline: solid #0056D5 1px;
+  border-radius: 4px;
+}
+
+.section2 .textbox2 {
+  width: 850px;
+  height: 22.101px;
+  display: flex;
+}
+
+.section2 .textbox2 .contact__list2 {
+  width: 850px;
+  height: 22.101px;
+  list-style: none;
+  display: flex;
+  font-size: 14px;
+  line-height: 1.58;
+  color: #767676;
+}
+
+.section2 .textbox2 .contact__list2 .contact__info2 {
+  height: 22.101px;
+  padding-left: 10px;
+  margin-left: 10px;
+  position: relative;
+}
+
+.section2 .textbox2 .contact__list2 .contact__info2::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 10.994px;
+  left: 0;
+  background-color: #d9dbe1;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.section2 .textbox2 .contact__list2 .contact__info2:first-child {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+
+.section2 .textbox2 .contact__list2 .contact__info2:first-child::before {
+  content: "";
+  position: absolute;
+  width: 0;
+}
+
+
+.section2 .textbox3 {
+  width: 1280px;
+  height: 22.155px;
+  position: absolute;
+  bottom: 20px;
+  margin-top: 8px;
+  color: #555;
+}
