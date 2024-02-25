@@ -1,7 +1,7 @@
 # ✈️대한항공 클론코딩
 
-- [대한항공 공식 홈페이지] (https://www.koreanair.com/?hl=ko)
-- [클론코딩 데모 페이지] ()
+- [대한항공 공식 홈페이지](https://www.koreanair.com/?hl=ko)
+- [클론코딩 데모 페이지](https://koreanair-oxlzlo.netlify.app/)
 
 ## ✈️프로젝트 기간
 
@@ -11,40 +11,69 @@
 
   1. 전체 페이지
 
-  ![] (./readme_images/전체페이지.mov)
+![whollpage](https://github.com/KDT1-FE/KDT8-M1/assets/140046183/f03b24a3-5c02-4584-9168-55c4d3871eb6)
+
 
   - header와 footer 포함 총 6개의 section
-
+  ---
   2. header
 
-  ![] (./reame_images/header.mov)
+![header](https://github.com/KDT1-FE/KDT8-M1/assets/140046183/134d287d-65db-4a08-b5ca-fb17c9b208fe)
+
 
   - 메인 메뉴 리스트를 마우스를 올렸을 때 나타나도록 구현
   - hover시 서브 메뉴 아웃라인 구현
-
+  ---
   3. swiper
+![swiper](https://github.com/KDT1-FE/KDT8-M1/assets/140046183/05fecb0e-1d10-4d11-8e97-6b28b7f038cb)
 
-  ![] (./readme_images/swiper.mov)
+
 
   - swiper 라이브러리 사용
-
+  ---
   4. experience section
 
-  ![] (./readme_images/experience.mov)
+![experience](https://github.com/KDT1-FE/KDT8-M1/assets/140046183/1e9bf8d5-d6d8-4c74-9730-dfe8081abd8d)
+
 
   - hover시 섹션 전체 높이 확장 및 말풍선 추가 효과 구현
 
+
   5. badge
 
-  ![] (./readme_images/badge hover.mov)
+![badge_hover](https://github.com/KDT1-FE/KDT8-M1/assets/140046183/2b3dd654-9377-4793-99b7-0547a89be967)
+
 
   - mouseover, mouseout에 따른 badge 확장 효과 구현
+  ---
 
   6. scrollTo
 
-  ![] (./readme_images/scrollTo.mov)
+![scrollTo](https://github.com/KDT1-FE/KDT8-M1/assets/140046183/a3323190-8bf0-473e-823f-655cc5d33255)
+
 
   - 스크롤 카운트에 따른 scrollTo 버튼 나타나는 효과 구현
   - 버튼 클릭 시 페이지 상단으로 이동 기능 구현
+  ---
+
 
 ## ✈️느낀점
+css에 대한 지식이 부족한 상태로 처음 웹사이트를 클론코딩 하려니 처음엔 정말 막막했다. 
+헤더 하나 만드는 것조차 힘들어서 3일을 끙끙 앓다가 결국엔 클론코딩 할 원본 사이트를 변경했다.
+중간에 사이트를 변경하니 시간의 촉박함을 느꼈고 매일 새벽 늦게까지 과제를 붙들고 앉아있었다..
+처음엔 어디서부터 어떻게 손을 대야 할 지 몰라서 스타벅스 클론코딩 강의를 참고하며 코드를 작성했다.
+섹션 1번까지 강의를 참고하며 진행하다보니 점점 감을 잡게 되었고, 이제 원본 사이트만 참고해서 코드를 작성하는 게 가능해졌다.
+
+아쉬운 점이라면 그리드를 사용하지 못 한 것과 원본 사이트와 비율이 정확히 맞지 않는다는 점이 가장 아쉽고,
+버튼 클릭시 일어나는 이벤트 효과들을 구현하지 못 한 것들이 많은 점이 아쉽다.
+우측 하단에 고정되어 있는 뱃지도 hover 효과를 줬을 때 원본 페이지와 차이가 있는 것,
+그리고 애니메이션이 부자연스러운 것을 해결하지 못 한 점이 아쉽다.
+
+코드가 너무 어지러운 부분이 많고, 중복 사용된 부분이 많은 것 같다.
+이런 부분들을 어떻게 해야 더 깨끗한 코드를 작성할 수 있을지 앞으로 더 많은 학습이 필요할 것 같다.
+
+실제 웹사이트를 만들어본 것이 처음이라 아쉬운 점도 많고, 부족한 점도 많지만,
+과제를 통해 직접 실습하며 많은 것들을 학습할 수 있어서 좋았다.
+많이 배운 것 같다.
+
+앞으로 늘 더 성장할 수 있도록 노력 해야겠다!
