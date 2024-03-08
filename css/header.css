@@ -1,7 +1,6 @@
 /* HEADER */
 header {
   border-bottom: 1px solid #d9dbe1;
-
 }
 
 header > .inner {
@@ -33,8 +32,8 @@ header .sub-menu ul.menu {
 }
 
 header .sub-menu ul.menu li {
-  margin-right: 17px;
   display: inline-block;
+  margin-right: 17px;
 }
 
 header .sub-menu ul.menu li:last-child {
@@ -42,18 +41,15 @@ header .sub-menu ul.menu li:last-child {
 }
 
 header .sub-menu ul.menu li a {
-  font-size: 14px;
   display: flex;
+  margin: 0 auto;
+  font-size: 14px;
   color: #000;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
 }
 
-header .sub-menu ul.menu li a .icon
-{
-  justify-content: center;
-  align-items: center;
+header .sub-menu ul.menu li a .icon {
   height: 16px;
   padding-right: 3px;
 }
@@ -68,30 +64,31 @@ header .sub-menu ul.menu li a img.flag {
 }
 
 header .sub-menu .search {
-  font-size: 14px;
   position: relative;
   display: flex;
+  font-size: 14px;
 }
 
 header .sub-menu .search input {
-  padding: 5px 10px 5px 16px;
+  position: absolute;
   height: 36px;
   width: 213px;
+  padding: 5px 10px 5px 16px;
+  margin: auto;
   border: 1px solid #f3f4f8;
   box-sizing: border-box;
-  border-radius: 4rem;
+  border-radius: 64px;
   background-color: #f3f4f8;
   color: #767676;
   outline: none;
-  position: absolute;
   bottom: 0px;
   right: 87px;
-  margin: auto;
+
 }
 
 header .sub-menu .search input:hover {
   outline: solid #0056D5 1px;
-  border-radius: 4rem;
+  border-radius: 64px;
   outline-offset: 1px;
 }
 
@@ -104,32 +101,32 @@ header .sub-menu .search .material-icons {
 }
 
 header .sub-menu .search .signin {
-  display: flex;
   position: absolute;
+  display: flex;
   width: 65px;
   height: 27px;
   bottom: 5px;
   right: 11px;
   margin: auto;
-  background-color: #00256c;
-  color: #fff;
-  border: 1px solid #00256c;
-  border-radius: 1.5rem;
-  box-sizing: border-box;
   padding: 3px 12px 4px;
   font-size: 14px;
   font-weight: 700;
+  background-color: #00256c;
+  color: #fff;
+  border: 1px solid #00256c;
+  border-radius: 24px;
+  box-sizing: border-box;
 }
 
 header .sub-menu .search .signin:hover {
   outline: solid #0056D5 1px;
-  border-radius: 1.5rem;
+  border-radius: 24px;
   outline-offset: 1px;
 }
 
 header .main-menu {
-  display: flex;
   position: absolute;
+  display: flex;
   height: 104px;
   bottom: -4px;
   left: 420px;
@@ -142,19 +139,19 @@ header .main-menu .item .item__name {
 }
 
 header .main-menu .item .item__name:first-child {
-  padding: 53px 0 20px 2rem;
+  padding: 53px 0 20px 32px;
   font-size: 19px;
   font-weight: 700;
 }
 
 header .main-menu .item .item__contents,
 header .main-menu .item .item__contentsAP {
+  position: fixed;
+  display: none;
   width: 1280px;
   margin: 0 auto;
-  position: fixed;
   left: 0;
   right: 0;
-  display: none;
 } 
 
 header .main-menu .item:hover .item__contents,
@@ -164,31 +161,29 @@ header .main-menu .item:hover .item__contentsAP {
 
 header .main-menu .item .item__contents .contents__menu,
 header .main-menu .item .item__contentsAP .contents__menuAP {
-  background-color: #f3f4f8;
   position: absolute;
-  top: -1px;
   width: 1170px;
+  top: -1px;
   padding: 60px 60px 50px 60px;
+  background-color: #f3f4f8;
   border-top: 1px solid #d9dbe1;
 }
 
 header .main-menu .item .item__contents .contents__menu .contents_inner,
 header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP,
 header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 {
-  width: 1160px;
   display: flex;
+  width: 1160px;
 }
 
 header .main-menu .item .item__contents .contents__menu .contents_inner .textboxes,
 header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .textboxesAP,
 header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 {
-  width: 865px;
   display: flex;
+  width: 865px;
 }
 
-header .main-menu .item .item__contents .contents__menu .contents_inner .textboxes .textbox1,
-header .main-menu .item .item__contents .contents__menu .contents_inner .textboxes .textbox2,
-header .main-menu .item .item__contents .contents__menu .contents_inner .textboxes .textbox3 {
+header .main-menu .item .item__contents .contents__menu .contents_inner .textboxes .textbox {
   width: 207.610px;
   height: 254px;
   padding: 30px 30.266px;
@@ -198,12 +193,7 @@ header .main-menu .item .item__contents .contents__menu .contents_inner .textbox
   border-radius: 7px;
 }
 
-header .main-menu .item .item__contents .contents__menu .contents_inner .textboxes .textbox1 h2,
-header .main-menu .item .item__contents .contents__menu .contents_inner .textboxes .textbox2 h2,
-header .main-menu .item .item__contents .contents__menu .contents_inner .textboxes .textbox3 h2,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .textboxesAP .textbox1AP h2,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .textboxesAP .textbox2AP h2,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .textboxesAP .textbox3AP h2 {
+header .main-menu .item h2 {
   width: 207.609px;
   height: 24px;
   margin-bottom: 2px;
@@ -211,22 +201,12 @@ header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .t
   font-size: 16px;
 }
 
-header .main-menu .item .item__contents .contents__menu .contents_inner .textboxes .textbox1 .list1,
-header .main-menu .item .item__contents .contents__menu .contents_inner .textboxes .textbox2 .list2,
-header .main-menu .item .item__contents .contents__menu .contents_inner .textboxes .textbox3 .list3,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .textboxesAP .textbox1AP .list1AP,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .textboxesAP .textbox2AP .list1AP,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .textboxesAP .textbox3AP .list1AP {
+header .main-menu .item .list {
   width: 207.690px;
   height: 162px;
 }
 
-header .main-menu .item .item__contents .contents__menu .contents_inner .textboxes .textbox1 .list1 > li,
-header .main-menu .item .item__contents .contents__menu .contents_inner .textboxes .textbox2 .list2 > li,
-header .main-menu .item .item__contents .contents__menu .contents_inner .textboxes .textbox3 .list3 > li,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .textboxesAP .textbox1AP .list1AP > li,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .textboxesAP .textbox2AP .list2AP > li,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .textboxesAP .textbox3AP .list3AP > li{
+header .main-menu .item .list > li {
   width: 207.690px;
   height: 18px;
   margin-top: 18px;
@@ -234,87 +214,52 @@ header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .t
   color: #555;
 }
 
-header .main-menu .item .item__contents .contents__menu .contents_inner .contents_img,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .contents_img,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .contents_img {
+header .main-menu .item .contents_img {
   width: 275px;
   height: 314px;
   margin-left: 20px;
 }
 
-header .main-menu .item .item__contents .contents__menu .contents_inner .contents_img .imgs,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .contents_imgAP .imgs,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .contents_imgAP .imgs {
+header .main-menu .item .contents_img .imgs {
   width: 275px;
   height: 314px;
 }
 
-header .main-menu .item .item__contents .contents__menu .contents_inner .contents_img .imgs .img1,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .contents_img .imgs .img1,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .contents_img .imgs .img1 {
+header .main-menu .item .contents_img .imgs .img1 {
+  position: relative;
   width: 275px;
   height: 147px;
-  position: relative;
 }
 
-header .main-menu .item .item__contents .contents__menu .contents_inner .contents_img .imgs .img1 > img,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .contents_img .imgs .img1 > img,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .contents_img .imgs .img1 > img {
+header .main-menu .item .contents_img .imgs img {
   width: 275px;
   height: 147px;
   border-radius: 7px;
 }
 
-header .main-menu .item .item__contents .contents__menu .contents_inner .contents_img .imgs .img1 > span,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .contents_img .imgs .img1 > span,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .contents_img .imgs .img1 > span {
+header .main-menu .item .contents_img .imgs span {
+  position: absolute;
   width: 165.453px;
   height: 25px;
   padding: 24px;
-  font-weight: 700;
-  font-size: 16px;
-  position: absolute;
   top: 0;
   left: 0;
+  font-weight: 700;
+  font-size: 16px;
 }
 
-header .main-menu .item .item__contents .contents__menu .contents_inner .contents_img .imgs .img2,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .contents_img .imgs .img2,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .contents_img .imgs .img2 {
+header .main-menu .item .contents_img .imgs .img2 {
+  position: relative;
   width: 275px;
   height: 147px;
   margin-top: 20px;
-  position: relative;
-}
-
-header .main-menu .item .item__contents .contents__menu .contents_inner .contents_img .imgs .img2 > img,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .contents_img .imgs .img2 > img,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .contents_img .imgs .img2 > img {
-  width: 275px;
-  height: 147px;
-  border-radius: 7px;
-}
-
-header .main-menu .item .item__contents .contents__menu .contents_inner .contents_img .imgs .img2 > span,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .contents_img .imgs .img2 > span,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .contents_img .imgs .img2 > span {
-  width: 165.453px;
-  height: 25px;
-  padding: 24px;
-  font-weight: 700;
-  font-size: 16px;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP {
   height: 294px;
 }
 
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .textboxesAP .textbox1AP,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .textboxesAP .textbox2AP,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .textboxesAP .textbox3AP {
+header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .textboxesAP .textboxAP {
   width: 207.610px;
   height: 214px;
   padding: 30px 30.266px;
@@ -325,13 +270,12 @@ header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP .t
 }
 
 header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 {
-  width: 865px;
   display: flex;
+  width: 865px;
 }
 
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textbox4AP,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textbox5AP,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textbox6AP {
+header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textboxAP2
+{
   width: 207.610px;
   height: 242px;
   padding: 30px 30.266px;
@@ -341,9 +285,8 @@ header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .
   border-radius: 7px;
 }
 
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textbox4AP h2,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textbox5AP h2,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textbox6AP h2{
+header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textboxAP2 h2
+{
   width: 207.609px;
   height: 24px;
   margin-bottom: 2px;
@@ -351,10 +294,8 @@ header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .
   font-size: 16px;
 }
 
-
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textbox4AP .list4AP > li,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textbox5AP .list5AP > li,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textbox6AP .list6AP > li{
+header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textboxAP2 .listAP2 > li
+{
   width: 207.609px;
   height: 18px;
   margin-top: 18px;
@@ -362,13 +303,8 @@ header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .
   color: #555;
 }
 
-
-
-
-
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textbox7AP,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textbox8AP,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textbox9AP {
+header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textboxAP2
+{
   width: 207.610px;
   height: 314px;
   padding: 30px 30.266px;
@@ -378,9 +314,8 @@ header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .
   border-radius: 7px;
 }
 
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textbox7AP h2,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textbox8AP h2,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textbox9AP h2{
+header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textboxAP2 > h2
+{
   width: 207.609px;
   height: 24px;
   margin-bottom: 2px;
@@ -388,9 +323,8 @@ header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .
   font-size: 16px;
 }
 
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textbox7AP .list7AP > li,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textbox8AP .list8AP > li,
-header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textbox9AP .list9AP > li{
+header .main-menu .item .item__contentsAP .contents__menuAP .contents_innerAP2 .textboxesAP2 .textboxAP2 .listAP2 > li
+{
   width: 207.609px;
   height: 18px;
   margin-top: 18px;

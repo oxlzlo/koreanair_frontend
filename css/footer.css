@@ -5,18 +5,18 @@ footer {
 }
 
 .section1 {
+  position: relative;
   width: 1920px;
   height: 265.656px;
-  position: relative;
   background-color: #f3f4f8;
 }
 
 .section1-inner {
+  position: absolute;
   width: 1280px;
   height: 191.656px;
-  padding: 50px 0;
-  position: absolute;
   left: 50%;
+  padding: 50px 0;
   margin-left: -640px;
 }
 
@@ -27,7 +27,6 @@ footer {
 
 .section1-textbox .textbox {
   display: flex;
-
 }
 
 .section1-textbox .textbox > ul {
@@ -42,13 +41,9 @@ footer {
 }
 
 .section1-textbox .textbox > ul > li h6 {
+  margin-bottom: 11px;
   font-size: 16px;
   font-weight: 700;
-  margin-bottom: 11px;
-}
-
-.section1-textbox .textbox > ul > li ul {
-  
 }
 
 .section1-textbox .textbox > ul > li ul li.strong {
@@ -56,8 +51,8 @@ footer {
 }
 
 .section1-textbox .textbox > ul > li ul li {
-  font-size: 14px;
   margin: 2px 0;
+  font-size: 14px;
   color: #555;
   line-height: 1.5;
 }
@@ -66,18 +61,17 @@ footer {
   text-decoration: underline;
 }
 
-
 .section1-textbox .textbox .sns-icon {
+  position: absolute;
   width:  208px;
   height: 44px;
-  position: absolute;
   right: 0;
 }
 
 .section1-textbox .textbox .banner {
+  position: absolute;
   width: 252px;
   height: 52px;
-  position: absolute;
   right: 0;
   top: 105px;
 }
@@ -91,24 +85,19 @@ footer {
   height: 34px;
 }
 
-
-
-.section2 {
-}
-
 .section2-inner {
+  position: relative;
   width: 1280px;
   height: 86.094px;
   margin: 0 auto;
   padding: 20px;
-  position: relative;
 }
 
 .section2 .textbox {
+  position: relative;
+  display: flex;
   width: 850px;
   height: 22.101px;
-  display: flex;
-  position: relative;
 }
 
 .section2 .textbox  .contact__item{
@@ -126,45 +115,45 @@ footer {
 }
 
 .section2 .textbox .contact__list {
+  display: flex;
   width: 635px;
   height: 22.101px;
   list-style: none;
-  display: flex;
   font-size: 14px;
   line-height: 1.58;
   color: #767676;
 }
 
 .section2 .textbox .contact__list .contact__info {
+  position: relative;
   height: 22.12px;
   padding-left: 10px;
   margin-left: 10px;
-  position: relative;
 }
 
 .section2 .textbox .contact__list .contact__info::before {
   content: "";
   position: absolute;
-  left: 0;
   width: 1px;
   height: 10.994px;
-  background-color: #d9dbe1;
+  left: 0;
   top: 50%;
+  background-color: #d9dbe1;
   transform: translateY(-50%);
 }
 
 .section2 .imgbox {
+  position: absolute;
   width: 210px;
   height: 70px;
-  position: absolute;
   right: 20px;
   bottom: 44.15px;
 }
 
 .section2 .imgbox .img1 {
+  position: absolute;
   width: 70px;
   height: 70px;
-  position: absolute;
   right: 142px;
 }
 
@@ -174,9 +163,9 @@ footer {
 }
 
 .section2 .imgbox .img2 {
+  position: absolute;
   width: 70px;
   height: 70px;
-  position: absolute;
   right: 71px;
 }
 
@@ -186,9 +175,9 @@ footer {
 }
 
 .section2 .imgbox .img3 {
+  position: absolute;
   width: 70px;
   height: 70px;
-  position: absolute;
   right: 0;
 }
 
@@ -198,26 +187,26 @@ footer {
 }
 
 .section2 .textbox2 {
+  display: flex;
   width: 850px;
   height: 22.101px;
-  display: flex;
 }
 
 .section2 .textbox2 .contact__list2 {
+  display: flex;
   width: 850px;
   height: 22.101px;
   list-style: none;
-  display: flex;
   font-size: 14px;
   line-height: 1.58;
   color: #767676;
 }
 
 .section2 .textbox2 .contact__list2 .contact__info2 {
+  position: relative;
   height: 22.101px;
   padding-left: 10px;
   margin-left: 10px;
-  position: relative;
 }
 
 .section2 .textbox2 .contact__list2 .contact__info2::before {
@@ -226,29 +215,24 @@ footer {
   width: 1px;
   height: 10.994px;
   left: 0;
-  background-color: #d9dbe1;
   top: 50%;
+  background-color: #d9dbe1;
   transform: translateY(-50%);
 }
-
 
 .section2 .textbox2 .contact__list2 .contact__info2:first-child {
   padding-left: 0;
   margin-left: 0;
 }
 
-
 .section2 .textbox2 .contact__list2 .contact__info2:first-child::before {
-  content: "";
-  position: absolute;
   width: 0;
 }
 
-
 .section2 .textbox3 {
+  position: absolute;
   width: 1280px;
   height: 22.155px;
-  position: absolute;
   bottom: 20px;
   margin-top: 8px;
   color: #555;

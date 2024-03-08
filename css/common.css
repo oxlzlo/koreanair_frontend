@@ -1,10 +1,10 @@
 /* COMMON */
 body {
   width: 1920px;
-  color: #333;
   font-size: 16px;
-  line-height: 1.4;
   font-weight: 400;
+  line-height: 1.4;
+  color: #333;
 }
 
 a {
@@ -13,7 +13,7 @@ a {
 }
 
 .inner {
+  position: relative;
   width: 1280px;
   margin: 0 auto;
-  position: relative;
 }
